@@ -14,7 +14,7 @@ namespace CountdownTimer
         /// <param name="word"> Random words </param>
         public TimerEventArgs(string words)
         {
-            Words = words;
+            this.Words = words;
         }
         #endregion
 

@@ -3,9 +3,9 @@ using CountdownTimer;
 
 namespace CountDownTimerTest
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             var timer = new Timer();
 
@@ -14,7 +14,7 @@ namespace CountDownTimerTest
             var lowerSubscriber = new LowerSubscriber(timer);
             lowerSubscriber.Subscribe();
 
-            timer.Notify(2000);
+            timer.Notify(3000);
         }
     }
 }

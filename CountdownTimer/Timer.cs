@@ -12,7 +12,7 @@ namespace CountdownTimer
         /// <summary>
         /// Event field for subscribtion
         /// </summary>
-        public event EventHandler<TimerEventArgs> timerEvent;
+        public event EventHandler<TimerEventArgs> TimerEvent;
         #endregion
 
         #region Public Methods
@@ -30,11 +30,17 @@ namespace CountdownTimer
         }
         #endregion
 
-
+        #region Protected Methods
+        /// <summary>
+        /// Invokes all subscribers of <see cref="TimerEvent"/>
+        /// </summary>
+        /// <param name="sender"> The object which initialized the event </param>
+        /// <param name="e"> Event arguments </param>
         protected virtual void OnTimeСome(object sender, TimerEventArgs e)
         {
-            timerEvent.Invoke(this, e);
+            TimerEvent?.Invoke(this, e);
         }
+        #endregion
 
         #region Private Methods
         private void ValidateTime(int milliseconds)
@@ -46,7 +52,6 @@ namespace CountdownTimer
                     nameof(milliseconds));
             }
         }
-
         #endregion
     }
 }

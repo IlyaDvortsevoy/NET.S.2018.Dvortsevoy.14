@@ -9,7 +9,7 @@ namespace CountDownTimerTest
 
         public LowerSubscriber(Timer timer) => _timer = timer;
 
-        public void Subscribe() => _timer.timerEvent += ConvertString;
+        public void Subscribe() => _timer.TimerEvent += ConvertString;
 
         private void ConvertString(object sender, TimerEventArgs e) =>
             Console.WriteLine(e.Words.ToLower());

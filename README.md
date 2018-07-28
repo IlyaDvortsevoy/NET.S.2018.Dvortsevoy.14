@@ -13,12 +13,14 @@
    - функцию построчного копирования содержимого одного тествового файла в другой, функция должна возвращать количество записанных строк;
    - функцию сравнения содержимого исходного и полученного файлов.
 
-3. Протестировать работу класса для данного текстового [файла](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/blob/master/M13.%20Streams%20and%20IO/SourceText.txt) в консоли, обратить внимание на содержимое файлов, полученных при копировании с помощью различных методов класса. Результаты проанализировать.
+3. Протестировать работу класса для данного текстового файла в консоли, обратить внимание на содержимое файлов, полученных при копировании с помощью различных методов класса. Результаты проанализировать.
 
 4. Для выполнения задания использовать следующий [проект](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/blob/master/M13.%20Streams%20and%20IO/M13.Streams.Task.7z).
 
 5. Реализовать обобщенный алгоритм бинарного поиска. Разработать unit-тесты.<br/>
-[Логика](https://github.com/IlyaDvortsevoy/NET.S.2018.Dvortsevoy.14/tree/master/SearchAlgorithm)
+[Логика](https://github.com/IlyaDvortsevoy/NET.S.2018.Dvortsevoy.14/blob/master/SearchAlgorithm/Search.cs)
 [Тесты](https://github.com/IlyaDvortsevoy/NET.S.2018.Dvortsevoy.14/tree/master/SearchAlgorithm.Tests)
 
-6. Реализовать метод-генератор последовательности чисел Фибоначчи. Разработать unit-тесты.
+6. Реализовать метод-генератор последовательности чисел Фибоначчи. Разработать unit-тесты.<br/>
+[Логика](https://github.com/IlyaDvortsevoy/NET.S.2018.Dvortsevoy.14/blob/master/Fibonacci/FibonacciSequence.cs)
+[Тесты](https://github.com/IlyaDvortsevoy/NET.S.2018.Dvortsevoy.14/blob/master/Fibonacci.Tests/FibonacciTests.cs)

@@ -1,8 +1,8 @@
-﻿using NUnit.Framework;
-using System;
+﻿using System;
 using System.Collections;
-using System.Numerics;
 using System.Linq;
+using System.Numerics;
+using NUnit.Framework;
 
 namespace Fibonacci.Tests
 {
